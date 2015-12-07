@@ -1,0 +1,15 @@
+{
+    "title": "Cake",
+    "name": "Cake",
+    "description": "Yummy",
+    "homepage": "https://github.com/DanielPintilei/Cake",
+    "version": "1.0.0",
+    "author": "Daniel Pintilei <danielpintilei@outlook.com> (http://danielpintilei.cf)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["sweet, cake, theme"]
+}

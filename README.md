@@ -1,3 +1,6 @@
+Yummy theme for Brackets
+========================
+
 ## HTML
 ![HTML!](https://github.com/DanielPintilei/cake/blob/master/screenshots/html.png)
 

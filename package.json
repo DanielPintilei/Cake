@@ -3,8 +3,8 @@
     "title": "Cake",
     "description": "Yummy",
     "homepage": "https://github.com/DanielPintilei/Cake",
-    "version": "1.0.1",
-    "author": "Daniel Pintilei <danielpintilei@outlook.com> (http://danielpintilei.cf)",
+    "version": "1.0.2",
+    "author": "Daniel Pintilei (http://danielpintilei.cf)",
     "license": "MIT",
     "theme": {
         "file": "theme.less",

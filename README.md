@@ -9,3 +9,9 @@ Yummy theme for Brackets
 
 ## JS
 ![JavaScript!](https://github.com/DanielPintilei/cake/blob/master/screenshots/js.png)
+
+## License
+
+MIT © [Daniel Pintilei][website]
+
+[website]: http://danielpintilei.cf

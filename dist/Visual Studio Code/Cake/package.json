@@ -2,7 +2,7 @@
 	"name": "Theme-Cake",
 	"displayName": "Cake Theme",
 	"description": "Yummy syntax theme",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "DanielPintilei",
 	"engines": {
 		"vscode": "^0.10.6"

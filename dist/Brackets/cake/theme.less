@@ -1,0 +1,155 @@
+/* Cake syntax theme by Daniel Pintilei */
+
+/* Colors */
+
+@dark: #221d19;
+@background: #2e231b;
+@foreground: #efeef1;
+@line-highlight: #3e2c20;
+@comment: #796b68;
+@gutter-elt: #764d42;
+@string: #a56e5f;
+@attribute: #ea88b9;
+@property: #d99f81;
+@error: #f04841;
+@tag: #fe728b;
+@selection: #5c3c2b;
+@variable: #c092ce;
+
+/* Code Styling */
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: @line-highlight;
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 @dark;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: @dark;
+        color: @gutter-elt;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: @comment;
+    }
+}
+
+.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: @string;}
+.cm-number, .cm-attribute, .cm-plus {color: @attribute;}
+.cm-def, .cm-property {color: @property;}
+.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: @foreground;}
+.cm-comment {color: @comment;}
+.cm-error, .cm-minus {color: @error;}
+.cm-header {color: @variable;}
+.cm-link {color: @variable; text-decoration: none;}
+.cm-rangeinfo {color: @property;}
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: @tag;}
+
+/* Extra CSS */
+
+.CodeMirror-searching {
+    background-color: @string;
+    &.searching-current-match {
+        background-color: @error;
+    }
+}
+
+
+.CodeMirror-cursor {
+    border-left: 1px solid @foreground !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: @gutter-elt;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: @line-highlight;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: @selection;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    /* Ensure visibility against gray inline editor background */
+    background-color: @gutter-elt;
+    color: @foreground !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @foreground;
+}
+
+.CodeMirror {
+    .CodeMirror {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-gutters {
+        background: transparent;
+        border-right: none;
+    }
+
+    .CodeMirror .CodeMirror-activeline-background {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+        background: transparent;
+        color: @comment;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline-background {
+        background: @line-highlight;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline {
+        .CodeMirror-gutter-elt {
+            background: @dark;
+            color: @foreground;
+        }
+    }
+}
+
+.CodeMirror-foldgutter-open:after {
+    color: @comment;
+}
+.CodeMirror-foldgutter-folded:after {
+    color: @foreground;
+}
+
+.CodeMirror.over-gutter, .CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: @comment;
+    }
+}
+
+.CodeMirror-foldmarker {
+    border-color: @dark;
+    color: @background;
+    background-color: @foreground;
+}
+
+/* Non-editor styling */
+
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}

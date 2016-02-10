@@ -1,0 +1,16 @@
+{
+  "name": "cake-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Yummy syntax theme",
+  "keywords": [
+    "cake",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://DanielPintilei.github.io/Cake",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

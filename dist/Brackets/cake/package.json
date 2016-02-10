@@ -1,0 +1,14 @@
+{
+    "name": "cake",
+    "title": "Cake",
+    "description": "Yummy syntax theme",
+    "homepage": "https://DanielPintilei.github.io/Cake",
+    "version": "1.0.3",
+    "author": "Daniel Pintilei",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true
+    },
+    "keywords": ["cake, syntax, theme"]
+}

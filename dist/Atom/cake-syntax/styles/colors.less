@@ -1,0 +1,44 @@
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-hue:          25;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+@dark: #221d19;
+@background: #2e231b;
+@foreground: #efeef1;
+@line-highlight: #3e2c20;
+@comment: #796b68;
+@gutter-elt: #764d42;
+@string: #a56e5f;
+@attribute: #ea88b9;
+@property: #d99f81;
+@error: #f04841;
+@tag: #fe728b;
+@selection: #5c3c2b;
+@variable: #c092ce;
+
+// Monochrome -----------------------------------
+@mono-1: @foreground; // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   @property;
+@hue-2:   @property;
+@hue-3:   @variable;
+@hue-4:   @string;
+
+@hue-5:   @tag;
+@hue-5-2: @tag;
+
+@hue-6:   @attribute;
+@hue-6-2: @attribute;
+
+// Base colors -----------------------------------
+@syntax-fg:     @foreground;
+@syntax-bg:     @background;
+@syntax-gutter: @gutter-elt;
+@syntax-guide:  @comment;
+@syntax-accent: @tag;

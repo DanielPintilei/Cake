@@ -1,16 +1,7 @@
-Yummy theme for Brackets
-========================
+Cake
+====
 
-## HTML
-![HTML!](https://github.com/DanielPintilei/cake/blob/master/screenshots/html.png)
-
-## CSS
-![CSS!](https://github.com/DanielPintilei/cake/blob/master/screenshots/css.png)
-
-## JS
-![JavaScript!](https://github.com/DanielPintilei/cake/blob/master/screenshots/js.png)
-
-## License
+** Yummy syntax theme for Atom, Brackets, Sublime Text and Visual Studio Code
 
 MIT © [Daniel Pintilei][website]
 

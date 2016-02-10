@@ -1,7 +1,12 @@
-Cake
-====
+<p align="center">
+ <img src="http://danielpintilei.github.io/cake/build/img/logo.svg" alt="cake logo" height="325" />
+</p>
 
-Yummy syntax theme for Atom, Brackets, Sublime Text and Visual Studio Code
+Yummy syntax theme for Atom, Brackets, Sublime Text and Visual Studio Code.
+
+https://danielpintilei.cf/Cake
+
+### License
 
 MIT © [Daniel Pintilei][website]
 

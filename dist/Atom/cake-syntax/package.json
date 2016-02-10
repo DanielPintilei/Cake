@@ -8,7 +8,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://DanielPintilei.github.io/Cake",
+  "repository": "https://github.com/DanielPintilei/cake-atom-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -3,6 +3,7 @@
   text-align: center;
   color: $foreground;
   background-color: $pink;
+  margin-bottom: -2px;
   header {
     // padding-top: 0.6em;
     // color: $gutter-elt;
@@ -156,6 +157,8 @@
 }
 @media only screen and (max-width : 480px) {
   .cream {
+    padding-top: -0.1px;
+    // border-top: 3px solid red;
     img {
       margin-top: -1em;
     }

@@ -1003,7 +1003,8 @@ a {
   position: relative;
   text-align: center;
   color: #efeef1;
-  background-color: #fe9cc1; }
+  background-color: #fe9cc1;
+  margin-bottom: -2px; }
   #landing header {
     color: #4d3829;
     font-family: 'Leckerli One', cursive;
@@ -1142,8 +1143,10 @@ a {
     margin-top: -0.5em; } }
 
 @media only screen and (max-width: 480px) {
-  .cream img {
-    margin-top: -1em; }
+  .cream {
+    padding-top: -0.1px; }
+    .cream img {
+      margin-top: -1em; }
   .install,
   .example {
     margin: 0; }

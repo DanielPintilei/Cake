@@ -1,4 +1,4 @@
-![Cake Logo](https://github.com/DanielPintilei/Cake/blob/master/build/img/logo.png)
+![Cake Logo](https://raw.githubusercontent.com/DanielPintilei/Cake/master/build/img/logo.png)
 
 
 Yummy syntax theme for Atom, Brackets, Sublime Text and Visual Studio Code.

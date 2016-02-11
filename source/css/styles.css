@@ -991,19 +991,19 @@ a {
 
 ::-moz-selection {
   color: #4d3829;
-  background: #fe9cad;
+  background: #fe9cc1;
   text-shadow: none; }
 
 ::selection {
   color: #4d3829;
-  background: #fe9cad;
+  background: #fe9cc1;
   text-shadow: none; }
 
 #landing {
   position: relative;
   text-align: center;
   color: #efeef1;
-  background-color: #fe9cad; }
+  background-color: #fe9cc1; }
   #landing header {
     color: #4d3829;
     font-family: 'Leckerli One', cursive;
@@ -1093,9 +1093,9 @@ a {
   line-height: 1.3; }
 
 .sublime a {
-  color: #fe9cad; }
+  color: #fe9cc1; }
   .sublime a:active, .sublime a:focus, .sublime a:visited {
-    color: #fe9cad; }
+    color: #fe9cc1; }
   .sublime a:hover {
     text-decoration: underline; }
 

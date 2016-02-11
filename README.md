@@ -1,7 +1,4 @@
-<p align="center">
  <img src="https://github.com/DanielPintilei/Cake/blob/master/build/img/logo.png" alt="cake logo" height="250" />
-</p>
-
 
 Yummy syntax theme for Atom, Brackets, Sublime Text and Visual Studio Code.
 

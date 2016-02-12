@@ -188,6 +188,11 @@
     display: block;
   }
 }
+.warning {
+  color: $gutter-elt;
+  text-align: center;
+  margin-bottom: 2em;
+}
 .footer {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0.8em 0;

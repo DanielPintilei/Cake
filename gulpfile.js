@@ -143,6 +143,5 @@ gulp.task('done', function() {
 });
 
 gulp.task('build', function(cb) {
-  runSequence('userefjs', 'mincss', 'minjs', ['minimg', 'fonts', 'preen'], 'done', cb);
-  // runSequence('userefjs', 'minhtml', 'mincss', 'minjs', ['minimg', 'fonts', 'preen'], 'done', cb);
+  runSequence('userefjs', 'minhtml', 'mincss', 'minjs', ['minimg', 'fonts', 'preen'], 'done', cb);
 });

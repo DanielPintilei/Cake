@@ -60,6 +60,9 @@
   &:hover {
     background-color: #5d4033;
   }
+  a {
+    outline: none;
+  }
 }
 .icon-wrapper.current {
   background-color: $highlight-bg;
@@ -71,6 +74,9 @@
   background-color: $background2;
 }
 .info {
+  margin-top: 1em;
+}
+.info2 {
   margin-top: 1em;
   margin-bottom: 2em;
 }
@@ -138,9 +144,19 @@
   color: $variable;
   text-decoration: underline;
   word-break: break-all;
+  word-wrap: break-word;
+}
+.variablejs {
+  color: $variable;
+}
+.property {
+  color: $property;
 }
 .comment {
   color: $comment;
+}
+.cm {
+  color: $cm;
 }
 .active-line {
   background-color: $line-highlight;

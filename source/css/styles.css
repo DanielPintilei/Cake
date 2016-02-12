@@ -1060,6 +1060,8 @@ a {
   border-radius: 50%; }
   .icon-wrapper:hover {
     background-color: #5d4033; }
+  .icon-wrapper a {
+    outline: none; }
 
 .icon-wrapper.current {
   background-color: #5d4033; }
@@ -1071,6 +1073,9 @@ a {
   background-color: #4d3829; }
 
 .info {
+  margin-top: 1em; }
+
+.info2 {
   margin-top: 1em;
   margin-bottom: 2em; }
 
@@ -1128,10 +1133,20 @@ a {
 .variable {
   color: #c092ce;
   text-decoration: underline;
-  word-break: break-all; }
+  word-break: break-all;
+  word-wrap: break-word; }
+
+.variablejs {
+  color: #c092ce; }
+
+.property {
+  color: #d99f81; }
 
 .comment {
   color: #796b68; }
+
+.cm {
+  color: #887976; }
 
 .active-line {
   background-color: #3e2c20; }

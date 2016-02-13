@@ -149,7 +149,7 @@
               <br> &nbsp;&nbsp;&nbsp;&nbsp;
               <span>&lt;</span><span class="tag">meta</span> <span class="attribute">name</span>=<span class="string">"viewport"</span> <span class="attribute">content</span>=<span class="string">"width=device-width, initial-scale=1"</span><span>&gt;</span>
               <br> &nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="comment">&lt;</span><span class="comment"><span>!</span>--this is a comment about cakes--</span><span class="comment">&gt;</span>
+              <span class="comment">&lt;</span><span class="comment"><span>!</span>--have some cake with your syntax--</span><span class="comment">&gt;</span>
               <br>
               <div class="active-line">
                 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -212,11 +212,11 @@
               <br>
               &nbsp;&nbsp;<span><span class="variablejs">if</span> (<span class="variablejs">typeof</span> define <span class="property">===</span> <span class="string">'function'</span> <span class="property">&amp;&amp;</span> <span class="tag">define</span>.<span class="tag">amd</span>) {</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">define</span>([<span class="string">'exports'</span>, <span class="string">'presents'</span>, <span class="string">'./util'</span>], factory);</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">define</span>([<span class="string">'exports'</span>, <span class="string">'presents'</span>, <span class="string">'./piece'</span>], factory);</span>
               <br>
               &nbsp;&nbsp;<span>} <span class="variablejs">else if</span> (<span class="variablejs">typeof</span> <span class="tag">exports</span> <span class="property">!==</span> <span class="string">'undefined'</span> <span class="property">&amp;&amp;</span> <span class="variablejs">typeof</span> <span class="tag">presents</span> <span class="property">!==</span> <span class="string">'undefined'</span>) {</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">exports</span>, <span class="tag">presents</span>, <span class="property">require</span>(<span class="string">'./util'</span>));</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">exports</span>, <span class="tag">presents</span>, <span class="property">require</span>(<span class="string">'./piece'</span>));</span>
               <br>
               &nbsp;&nbsp;<span>} <span class="variablejs">else</span> {</span>
               <br>
@@ -226,7 +226,7 @@
               <br>
               &nbsp;&nbsp;&nbsp;&nbsp;<span>};</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">mod</span>.<span class="tag">exports</span>, mod, <span class="tag">cake</span>.<span class="tag">Util</span>);</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">mod</span>.<span class="tag">exports</span>, mod, <span class="tag">cake</span>.<span class="tag">Piece</span>);</span>
               <br>
               &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="tag">cake</span>.<span class="tag">serve</span> = <span class="tag">mod</span>.<span class="tag">exports</span>;</span>
               <br>
@@ -247,7 +247,7 @@
 
 
   <footer class="container-fluid footer">
-    <span>MIT ©<a href="https://danielpintilei.cf/"> Daniel Pintilei</a></span>
+    <span>MIT ©&nbsp;<a href="https://danielpintilei.cf/">Daniel Pintilei</a></span>
     <a href="https://github.com/DanielPintilei/Cake">View on GitHub</a>
   </footer>
 

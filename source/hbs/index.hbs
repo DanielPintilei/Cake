@@ -147,8 +147,6 @@
               <br> &nbsp;&nbsp;&nbsp;&nbsp;
               <span>&lt;</span><span class="tag">meta</span> <span class="attribute">charset</span>=<span class="string">"utf-8"</span><span>&gt;</span>
               <br> &nbsp;&nbsp;&nbsp;&nbsp;
-              <span>&lt;</span><span class="tag">meta</span> <span class="attribute">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attribute">content</span>=<span class="string">"IE=edge"</span><span>&gt;</span>
-              <br> &nbsp;&nbsp;&nbsp;&nbsp;
               <span>&lt;</span><span class="tag">meta</span> <span class="attribute">name</span>=<span class="string">"viewport"</span> <span class="attribute">content</span>=<span class="string">"width=device-width, initial-scale=1"</span><span>&gt;</span>
               <br> &nbsp;&nbsp;&nbsp;&nbsp;
               <span class="comment">&lt;</span><span class="comment"><span>!</span>--this is a comment about cakes--</span><span class="comment">&gt;</span>
@@ -165,9 +163,7 @@
               <span>&lt;</span><span class="tag">h1</span>>Delicious!</h1<span>&gt;</span>
               <br> &nbsp;&nbsp;&nbsp;&nbsp;
               <span>&lt;</span><span class="tag">script</span> <span class="attribute">src</span>=<span class="string">"</span><span class="variable">https://cake.land/chocolate.chips.js</span><span class="string">"</span><span>&gt;</span>&lt;<span>/</span><span class="tag">script</span><span>&gt;</span>
-              <br>&nbsp;&nbsp;&nbsp;&nbsp;
-              <span>&lt;</span><span class="tag">script</span> <span class="attribute">src</span>=<span class="string">"js/scripts.min.js"</span>&gt;<span>&lt;<span>/</span></span><span class="tag">script</span><span>&gt;</span>
-              <br> &nbsp;&nbsp;&nbsp;
+              <br>&nbsp;&nbsp;
               <span>&lt;</span>/<span class="tag">body</span><span>&gt;</span>
               <br>
               <span>&lt;</span>/<span class="tag">html</span><span>&gt;</span>
@@ -190,7 +186,7 @@
               <br>
               <span>}</span>
               <br>
-              <span><span class="attribute">.cream</span> <span class="tag">span</span><span class="attribute">::before</span> {</span>
+              <span><span class="attribute">.icing</span> <span class="tag">span</span><span class="attribute">::before</span> {</span>
               <br>
               &nbsp;&nbsp;<span><span class="property">top</span><span class="cm">:</span> <span class="attribute">12px</span><span class="cm">;</span></span>
               <br>
@@ -210,17 +206,17 @@
 
           <div class="col-md-6 col-sm-12 info2">
             <div class="example">
-              <span><span class="variablejs">var</span> <span class="attribute">NAME</span> <span class="property">=</span> <span class="string">'Cake'</span>;</span>
+              <span><span class="variablejs">var</span> <span class="attribute">SURPRISE</span> <span class="property">=</span> <span class="string">'Cake'</span>;</span>
               <br>
-              <span>(<span class="variablejs">function</span> (global, factory) {</span>
+              <span>(<span class="variablejs">function</span> (cake, factory) {</span>
               <br>
               &nbsp;&nbsp;<span><span class="variablejs">if</span> (<span class="variablejs">typeof</span> define <span class="property">===</span> <span class="string">'function'</span> <span class="property">&amp;&amp;</span> <span class="tag">define</span>.<span class="tag">amd</span>) {</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">define</span>([<span class="string">'exports'</span>, <span class="string">'module'</span>, <span class="string">'./util'</span>], factory);</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">define</span>([<span class="string">'exports'</span>, <span class="string">'presents'</span>, <span class="string">'./util'</span>], factory);</span>
               <br>
-              &nbsp;&nbsp;<span>} <span class="variablejs">else if</span> (<span class="variablejs">typeof</span> <span class="tag">exports</span> <span class="property">!==</span> <span class="string">'undefined'</span> <span class="property">&amp;&amp;</span> <span class="variablejs">typeof</span> <span class="tag">module</span> <span class="property">!==</span> <span class="string">'undefined'</span>) {</span>
+              &nbsp;&nbsp;<span>} <span class="variablejs">else if</span> (<span class="variablejs">typeof</span> <span class="tag">exports</span> <span class="property">!==</span> <span class="string">'undefined'</span> <span class="property">&amp;&amp;</span> <span class="variablejs">typeof</span> <span class="tag">presents</span> <span class="property">!==</span> <span class="string">'undefined'</span>) {</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">exports</span>, <span class="tag">module</span>, <span class="property">require</span>(<span class="string">'./util'</span>));</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">exports</span>, <span class="tag">presents</span>, <span class="property">require</span>(<span class="string">'./util'</span>));</span>
               <br>
               &nbsp;&nbsp;<span>} <span class="variablejs">else</span> {</span>
               <br>
@@ -230,9 +226,9 @@
               <br>
               &nbsp;&nbsp;&nbsp;&nbsp;<span>};</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">mod</span>.<span class="tag">exports</span>, mod, <span class="tag">global</span>.<span class="tag">Util</span>);</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="property">factory</span>(<span class="tag">mod</span>.<span class="tag">exports</span>, mod, <span class="tag">cake</span>.<span class="tag">Util</span>);</span>
               <br>
-              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="tag">global</span>.<span class="tag">dropdown</span> = <span class="tag">mod</span>.<span class="tag">exports</span>;</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span><span class="tag">cake</span>.<span class="tag">serve</span> = <span class="tag">mod</span>.<span class="tag">exports</span>;</span>
               <br>
               &nbsp;&nbsp;<span>}</span>
               <br>

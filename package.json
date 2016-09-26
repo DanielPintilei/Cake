@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Yummy syntax theme",
   "main": "index.html",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
   "author": "Daniel Pintilei",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.3.1",
     "browser-sync": "^2.11.1",
-    "cssnano": "^3.4.0",
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-concat": "^2.6.0",
     "gulp-data": "^1.2.1",
@@ -17,15 +20,13 @@
     "gulp-imagemin": "^2.4.0",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-postcss": "^6.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.5.0",
     "gulp-uglify": "^1.5.1",
     "gulp-useref": "^3.0.5",
     "imagemin-pngquant": "^4.2.0",
     "preen": "^1.2.0",
-    "rucksack-css": "^0.8.5",
     "run-sequence": "^1.1.5"
   }
 }

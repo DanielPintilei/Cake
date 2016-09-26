@@ -5,16 +5,9 @@
   "main": "index.html",
   "author": "Daniel Pintilei",
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "v4.0.0-alpha.2"
-  },
   "preen": {
     "jQuery": [
       "dist/jquery.min.js"
-    ],
-    "bootstrap": [
-      "dist/js/umd/**/*",
-      "scss/**/*"
     ]
   }
 }
